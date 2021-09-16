@@ -20,7 +20,7 @@ public class main {
 		}
 		return sum;
 	}
-	//Greatest Increasing Subset Feature <edit>
+	//Greatest Increasing Subset Feature <edit> <edit>
 	public static ArrayList <Integer> increasingSubset(int [] A) {
 		int maxSum = 0;
 		ArrayList <Integer> max = new ArrayList<Integer>(Arrays.asList());
