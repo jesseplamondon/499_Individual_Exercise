@@ -12,7 +12,7 @@ public class main {
 		for(int e: res) {System.out.print(e+", ");}
 		System.out.print("}");
 	}
-	// Sum feature 
+	// Sum feature <edit>
 	public static int Sum(int[] a) {
 		int sum=0;
 		for(int e: a) {
