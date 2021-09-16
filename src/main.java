@@ -7,9 +7,18 @@ public class main {
 		// TODO Auto-generated method stub
 		int [] A = new int[]{1,9,7,4,5,8,2,3,1,7};
 		ArrayList <Integer> res = increasingSubset(A);
-		System.out.print("{");
+		System.out.println("Sum of integers: " + Sum(A));
+		System.out.print("Greatest Increasing Subset {");
 		for(int e: res) {System.out.print(e+", ");}
 		System.out.print("}");
+	}
+	
+	public static int Sum(int[] a) {
+		int sum=0;
+		for(int e: a) {
+			sum+=e;
+		}
+		return sum;
 	}
 	
 	public static ArrayList <Integer> increasingSubset(int [] A) {
