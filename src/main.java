@@ -12,7 +12,7 @@ public class main {
 		for(int e: res) {System.out.print(e+", ");}
 		System.out.print("}");
 	}
-	// Sum feature <edit>
+	// Sum feature
 	public static int Sum(int[] a) {
 		int sum=0;
 		for(int e: a) {
@@ -20,7 +20,7 @@ public class main {
 		}
 		return sum;
 	}
-	//Greatest Increasing Subset Feature <edit> <edit>
+	//Greatest Increasing Subset Feature <edit>
 	public static ArrayList <Integer> increasingSubset(int [] A) {
 		int maxSum = 0;
 		ArrayList <Integer> max = new ArrayList<Integer>(Arrays.asList());
